@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomDialog" parent="FancyDialogTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="positiveButtonStyle">@style/positiveButtonStyle</item>
+        <item name="negativeButtonStyle">@style/negativeButtonStyle</item>
+        <item name="textTitleColor">@color/colorTitle</item>
+        <item name="textSubTitleColor">@color/colorSubTitle</item>
+        <item name="dialogBackground">@color/colorDialogBackground</item>
+    </style>
+
+    <style name="positiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="strokeColor">@color/colorTitle</item>
+        <item name="android:textColor">@color/colorTitle</item>
+        <item name="rippleColor">@color/colorTitle</item>
+    </style>
+
+    <style name="negativeButtonStyle" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="strokeColor">@color/colorTitle</item>
+        <item name="android:textColor">@color/colorTitle</item>
+        <item name="rippleColor">@color/colorTitle</item>
+    </style>
+</resources>

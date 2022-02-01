@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_hadith_book">
+
+    <fragment
+        android:id="@+id/nav_hadith_book"
+        android:name="com.simplecode01.hadistfull.ui.hadith.HadithFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_hadith" >
+        <action
+            android:id="@+id/action_nav_hadith_book_to_nav_list_hadith"
+            app:destination="@id/nav_list_hadith" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_detail"
+        android:name="com.simplecode01.hadistfull.ui.detail.DetailFragment"
+        android:label="@string/menu_detail_hadith"
+        tools:layout="@layout/fragment_detail_hadith" >
+        <action
+            android:id="@+id/action_nav_detail_to_nav_hadith_book"
+            app:destination="@id/nav_hadith_book" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_list_hadith"
+        android:name="com.simplecode01.hadistfull.ui.listhadits.ListHadithFragment"
+        android:label="@string/menu_list_hadith"
+        tools:layout="@layout/fragment_list_hadith">
+        <action
+            android:id="@+id/action_nav_list_hadith_to_nav_view_pager"
+            app:destination="@id/nav_view_pager" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_view_pager"
+        android:name="com.simplecode01.hadistfull.ui.detail.HadithViewPagerFragment"
+        android:label="HadistFull"
+        tools:layout="@layout/fragment_hadith_view_pager" />
+</navigation>

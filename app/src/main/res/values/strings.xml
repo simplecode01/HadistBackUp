@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">HadistFull</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="book_cover">Book_Cover</string>
+    <string name="book_title">Book Title</string>
+    <string name="book_count">2223</string>
+    <string name="list_title_hadith">Title hadith : 10</string>
+    <string name="menu_list_hadith">List Hadith</string>
+    <string name="example">Hadist ke 1 Arbain</string>
+    <string name="hadist_arab">الحديث الأول [ عن أمير المؤمنين أبي حفص عمر بن الخطاب رضي الله تعالى عنه قال : سمعت رسول الله صلى الله تعالى عليه وعلى آله وسلم يقول : إنما الأعمال بالنيات وإنما لكل امرئ ما نوى فمن كانت هجرته إلى الله ورسوله فهجرته إلى الله ورسوله ومن كانت هجرته لدنيا يصيبها أو امرأة ينكحها فهجرته إلى ما هاجر إليه ] رواه إماما المحدثين : أبو عبدالله محمد ابن إسماعيل بن إبراهيم بن المغيرة بن بردزبه البخاري وأبو الحسين مسلم ابن الحجاج بن مسلم القشيري النيسابوري : في صحيحيهما اللذين هما أصح الكتب المصنفة</string>
+    <string name="hadist_translate">Dari Amirul Mukminin Abu Hafsh, Umar bin Al-Khathab radhiyallahu ‘anhu, ia berkata : “Aku mendengar Rasulullah shallallahu ‘alaihi wa sallam bersabda: “Segala amal itu tergantung niatnya, dan setiap orang hanya mendapatkan sesuai niatnya.</string>
+    <string name="menu_detail_hadith">Detail Hadith</string>
+    <string name="menu">Menu</string>
+    <string name="copy_hadist">Copy Hadist</string>
+    <string name="share_hadist">Share Hadist</string>
+    <string name="hadist_title">Hadist :</string>
+    <string name="translate_title">Translate :</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_hadist">Report Error</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nibh eros, mollis at mi et, blandit porta dolor. Pellentesque dictum sapien fermentum mi venenatis imperdiet. Quisque tortor odio, vulputate nec turpis eget, varius ultricies enim. Nam quis arcu sem. Ut eu iaculis neque, eget sagittis dolor. Praesent ac lacus risus. Phasellus ut sodales elit.</string>
+</resources>
